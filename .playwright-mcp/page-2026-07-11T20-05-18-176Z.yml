@@ -1,0 +1,85 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e3]:
+    - generic [ref=f3e5]:
+      - heading "React Component Generator" [level=1] [ref=f3e7]
+      - generic [ref=f3e9]:
+        - generic [ref=f3e53]:
+          - generic [ref=f3e54]: Create a primary button component with a label
+          - generic [ref=f3e71]:
+            - generic [ref=f3e72]:
+              - generic [ref=f3e74]: Creating file
+              - generic [ref=f3e75]: PrimaryButton.jsx
+            - separator [ref=f3e76]
+            - paragraph [ref=f3e78]: "Now let me create an App.jsx to showcase it:"
+            - generic [ref=f3e79]:
+              - generic [ref=f3e81]: Creating file
+              - generic [ref=f3e82]: App.jsx
+            - separator [ref=f3e83]
+            - paragraph [ref=f3e85]:
+              - text: Done! Created a
+              - code [ref=f3e221]: PrimaryButton
+              - text: component with a label prop, plus an App.jsx to demonstrate it. The button includes hover effects and disabled state styling.
+        - generic [ref=f3e20]:
+          - textbox "Describe the React component you want to create..." [ref=f3e21]
+          - button [disabled] [ref=f3e22]
+    - separator [ref=f3e26]
+    - generic [ref=f3e28]:
+      - generic [ref=f3e29]:
+        - tablist [ref=f3e31]:
+          - tab "Preview" [ref=f3e32]
+          - tab "Code" [selected] [ref=f3e33]
+        - generic [ref=f3e34]:
+          - button "Sign In" [ref=f3e35]
+          - button "Sign Up" [ref=f3e36]
+      - generic [ref=f3e89]:
+        - generic [ref=f3e95]:
+          - generic [ref=f3e96]:
+            - generic [ref=f3e97] [cursor=pointer]: components
+            - generic [ref=f3e103]: PrimaryButton.jsx
+          - generic [ref=f3e112]: App.jsx
+        - separator [ref=f3e120]
+        - code [ref=f3e125]:
+          - generic [ref=f3e126]:
+            - generic [ref=f3e128]:
+              - generic [ref=f3e222]:
+                - generic [ref=f3e223] [cursor=pointer]: 
+                - generic [ref=f3e224]: "1"
+              - generic [ref=f3e226]:
+                - generic [ref=f3e227] [cursor=pointer]: 
+                - generic [ref=f3e228]: "2"
+              - generic [ref=f3e229]:
+                - generic [ref=f3e230] [cursor=pointer]: 
+                - generic [ref=f3e231]: "3"
+              - generic [ref=f3e232]: "4"
+              - generic [ref=f3e234]: "5"
+              - generic [ref=f3e143]: "6"
+              - generic [ref=f3e236]:
+                - generic [ref=f3e237] [cursor=pointer]: 
+                - generic [ref=f3e238]: "7"
+              - generic [ref=f3e242]: "8"
+              - generic [ref=f3e244]: "9"
+              - generic [ref=f3e246]: "10"
+              - generic [ref=f3e248]: "11"
+              - generic [ref=f3e250]: "12"
+            - generic [ref=f3e184]:
+              - generic [ref=f3e292]: "export default function PrimaryButton({ label,"
+              - generic [ref=f3e294]: "onClick, disabled = false }) {"
+              - generic [ref=f3e296]: return (
+              - generic [ref=f3e298]: <button
+              - generic [ref=f3e300]: "onClick={onClick}"
+              - generic [ref=f3e302]: "disabled={disabled}"
+              - generic [ref=f3e304]: className="px-6 py-2 bg-blue-600 text-white
+              - generic [ref=f3e306]: font-semibold rounded-lg hover:bg-blue-700
+              - generic [ref=f3e308]: ">"
+              - generic [ref=f3e310]: disabled:bg-gray-400
+              - generic [ref=f3e312]: disabled:cursor-not-allowed
+              - generic [ref=f3e314]: transition-colors"
+              - generic [ref=f3e316]: "{label}"
+              - generic [ref=f3e318]: </button>
+              - generic [ref=f3e320]: );
+              - generic [ref=f3e322]: "}"
+            - textbox "Editor content" [ref=f3e210]: "transition-colors\" > {label} </button> ); }"
+  - alert [ref=f3e47]
+  - generic [ref=f3e211]:
+    - alert
+    - alert

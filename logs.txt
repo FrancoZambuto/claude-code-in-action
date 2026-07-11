@@ -1,0 +1,21 @@
+   ▲ Next.js 15.3.9 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.235.1:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ⚠ Invalid next.config.ts options detected: 
+ ⚠     Unrecognized key(s) in object: 'root' at "turbopack"
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+ ✓ Compiled middleware in 147ms
+ ✓ Ready in 1547ms
+ ○ Compiling / ...
+ ✓ Compiled / in 5.5s
+ GET / 200 in 6142ms
+ ✓ Compiled /favicon.ico in 281ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 541ms
+ GET / 200 in 76ms
+ GET / 200 in 86ms
+ ✓ Compiled /api/chat in 450ms
+ POST /api/chat 200 in 5896ms
+ ✓ Compiled in 126ms
